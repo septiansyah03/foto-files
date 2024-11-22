@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dokumentasi Kegiatan</title>
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Upload Dokumentasi Kegiatan</h1>
+
+        <form id="uploadForm" class="file-upload">
+      <label for="fileInput" class="file-upload-label">Pilih File</label>
+      <input type="file" id="fileInput" multiple/>
+      <div id="fileName"></div>
+      <button type="submit" class="upload-btn" id="uploadBtn">Upload</button>
+    </form>
+
+    <div class="statistics">
+      <h2>Statistik</h2>
+      <p>Jumlah File: <span id="totalUploads">0 File</span></p>
+      <p>Ukuran File: <span id="driveUsage">0 MB</span></p>
+    </div>
+
+    <div class="history">
+      <h2>Riwayat Upload</h2>
+      <table id="uploadHistory">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama File</th>
+            <th>Waktu Upload</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="3"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+<div class="gallery" style="display: none;">
+    <h2>Galeri</h2>
+    <div id="galleryGrid" class="gallery-grid"></div>
+  </div>  
+
+    <footer class="footer">
+      <p>&copy; <span id="currentYear"></span> Created with <i class="fas fa-heart"></i> by AS - All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>
