@@ -1,6 +1,6 @@
 # foto-files terintegrasi ke drive
 
-Proyek ini dibuat untuk memudahkan sekolah/instansi lain dalam setiap kegiatan dan menyimpannya langsung di Google Drive melalui aplikasi web. Aplikasi ini dibangun menggunakan HTML, CSS, dan JavaScript, dan menggunakan API Google Drive dari AppScript untuk menyimpan foto yang di-upload.
+Proyek ini dibuat untuk memudahkan sekolah/instansi lain dalam setiap kegiatan dan menyimpannya langsung di Google Drive melalui aplikasi web. Aplikasi ini dibangun menggunakan HTML, Tailwind CSS, JavaScript, dan menggunakan API Google Drive dari AppScript untuk menyimpan foto yang di-upload.
 
 Fitur
 Upload Foto maupun Dokumen: Pengguna dapat meng-upload foto maupun dokumen melalui antarmuka web.
