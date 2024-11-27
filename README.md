@@ -11,3 +11,7 @@ Cara Kerja
 Pengguna dapat memilih/memasukan beberapa file foto/dokumen untuk di-upload.
 Foto/dokumen yang dipilih akan dikirimkan ke Google Drive melalui API yang terintegrasi.
 Foto/dokumen disimpan di folder yang sudah ditentukan di Google Drive.
+
+# Intip tampilan situsnya
+
+![fotofile](https://github.com/septiansyah03/foto-files/blob/73f28f25478799c8f523b21d66a00c9c56f3e9b1/fotofile.png?raw=true)
